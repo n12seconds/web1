@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>JOY's 1st Home - WEB1 html</title>
-<meta charset="utf-8>"
+<meta charset="utf-8">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
@@ -78,7 +78,7 @@ a는 anchor의 약자이고, href는 HyperText Reference의 약자. (HTML = Hype
 target="_blank"는 링크를 클릭했을 때 새창에서 페이지가 열리게 하는 속성<br>
 title은 이 링크가 어떤 내용을 담고 있는지를 툴팁으로 보여주는 기능
 
-<h3>서버와 브라우저, 서버와 클라이언트</h3>
+<h3>#5 서버와 브라우저, 서버와 클라이언트</h3>
 세계최초의 웹페이지 http://info.cern.ch/ <br>
 웹서버-웹브라우저, 게임서버-게임클라이언트 등<br>
 만든 웹페이지를 전세계에서 접속가능하게 하려면?<br>
@@ -87,9 +87,32 @@ title은 이 링크가 어떤 내용을 담고 있는지를 툴팁으로 보여�
 <br>
 <h3>웹호스팅-깃헙페이지</h3>
 직접 웹서버 운영은 어렵다. 언제 접속될지 모르니 냉장고처럼 항시 켜져있어야하고, 웹서버프로그램을 배워서 설치해야함. 또 인터넷으로 외부로 정보전송하도록 설정해야함.<br>
-
-
-
+<br>
+<h3>직접 웹서버 설치하기</h3>
+아파치for윈도우 설치<br>
+binami WAMP stack(윈도우 아파치 mysql데이터베이스 php미들웨어)<br>이 매니저프로그램을 사용해서 끄고켜고 관리 가능
+<br>
+<br>
+http://localhost/index.html<br>
+http://127.0.0.1/index.html<br>
+localhost와 같이 의미가 있는 이름 = 도메인 네임(domain name),
+<br>127.0.0.1 = ip 주소(ip address)<br>
+(localhost라는 도메인 이름은 내컴퓨터라는 의미)<br>
+위 주소들은 내컴퓨터의 index.html을 불러오라는 것.
+<br>
+<br>
+index.html의 위치는 apache → htdocs → index.html <br>
+htdocs 디렉토리(hypertext documents 의 약자)를 비우고 내가 원하는 파일을 복붙하면 됨.<br>
+** 웹브라우저가 웹서버에 자료요청, 웹서버는 설정된 폴더에서 자료찾아서 웹브라우저로 전송, 웹브라우저는 그걸 해석해서 화면에 표시해주는것.
+<br>
+<br>
+http:// 는 웹서버와 웹브라우저간의 통신을 통해 연 페이지. <br>
+(http = hyper text transfer protocol 웹페이지 전송규약) <br>
+file:// 은 브라우저가 파일을 직접 연 페이지.<br>
+<br>
+<br>
+그럼 다른 컴퓨터에서는 웹서버가 설치된 컴퓨터의 ip주소를 어떻게 알아낼수있을까? <br>
+두 컴퓨터가 같은 네트워크에 연결되어있어야함.
 
 </body>
 </html>
